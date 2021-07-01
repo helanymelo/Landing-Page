@@ -75,7 +75,7 @@ nav #icon{
 
 #search-icon{
 	position: absolute;
-	padding: 35px;
+	padding: 20px;
 	margin-right: 40px;
 	
 	
@@ -96,5 +96,76 @@ footer img:hover{
 	transform:scale(1.3);
 	z-index: 2;
 
+
+}
+
+
+
+form {
+    
+    font-size: 15px;
+    background-color: rgb(194, 176, 176);
+    max-width: 500px;
+    position: absolute;
+    border-radius: 5px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%)
+    
+    
+    
+}
+
+h1 {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: black;
+    
+}
+
+input, textarea {
+    width: 210px;
+    padding: 10px;
+    color: black;
+    margin-left: 20px;
+    margin-top: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+}
+
+input:hover, textarea:hover, input:focus, textarea:focus {
+    border-color: gray;
+    color: black;
+    font-weight: bold;
+}
+
+.enviar {
+    background-color: rgb(216, 213, 213);
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+    color: black;
+    
+    
+    
+    
+
+    
+}
+
+textarea {
+    width: 400px;
+    height: 120px;
+    line-height: 20px;
+    max-width: 400px;
+}
+
+input{
+    width: 400px;
 
 }
