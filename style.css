@@ -3,6 +3,7 @@
 	padding: 0;
 	text-decoration: none;
 	list-style: none;
+	
 }
 
 body{
@@ -19,7 +20,7 @@ section{
 nav{
 	height: 80px;
 	width: 100%;
-	background: whitesmoke;
+	background: #4050b6;
 }
 
 .logo{
@@ -49,7 +50,7 @@ nav li{
 }
 
 nav a{
-	color: black;
+	color: rgb(236, 234, 234);
 	font-size: 18px;
 	border: 1px solid transparent;
 	padding: 3px 10px;
@@ -58,7 +59,7 @@ nav a{
 }
 
 a.active,a:hover{
-	color: rgb(98, 125, 246);
+	color: rgb(36, 35, 35);
 }
 
 nav ul{
@@ -104,7 +105,7 @@ footer img:hover{
 form {
     
     font-size: 15px;
-    background-color: rgb(194, 176, 176);
+    background-color:rgb(87, 83, 83);
     max-width: 500px;
     position: absolute;
     border-radius: 5px;
@@ -120,6 +121,8 @@ h1 {
     margin-bottom: 20px;
     margin-left: 20px;
     color: black;
+	text-align: center;
+	margin-top: 20px;
     
 }
 
@@ -132,6 +135,7 @@ input, textarea {
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border: 1px solid;
+	
 }
 
 input:hover, textarea:hover, input:focus, textarea:focus {
@@ -146,10 +150,12 @@ input:hover, textarea:hover, input:focus, textarea:focus {
     width: 100px;
     font-weight: bold;
     border-radius: 5px;
-    -webkit-border-radius: 5px;
+    -webkit-border-radius: 3px;
     -moz-border-radius: 5px;
     border: 1px solid;
     color: black;
+	align-content: center;
+	margin-right: 250px;
     
     
     
@@ -169,3 +175,82 @@ input{
     width: 400px;
 
 }
+
+main{
+	display: flex;
+	height: 100vh;
+	width: 100vw;
+	align-items: space-evenly;	
+	
+}
+
+.container1{
+	text-align: center;
+	width: 80%;
+	max-width: 300px;	
+	border-radius: 10px;
+	box-shadow: 1px 2px 6px rgba(13, 7, 102, 0.4);
+	
+}
+
+.container2{
+	text-align: center;
+	width: 80%;
+	max-width: 300px;	
+	border-radius: 10px;
+	box-shadow: 1px 2px 6px rgba(13, 7, 102, 0.4);
+	margin-left: 10px;
+}
+
+.container3{
+	text-align: center;
+	width: 80%;
+	max-width: 300px;	
+	border-radius: 10px;
+	box-shadow: 1px 2px 6px rgba(13, 7, 102, 0.4);
+	margin-left: 10px;
+
+}
+
+
+
+
+.header{
+	background-color: #4050b6;
+	color: white;
+	font-size: .8em;
+	padding: 3px 0;
+	border-radius: 10px 10px 0 0;
+
+}
+
+button{
+	width: 210px;
+	height: 50px;
+	border-radius: 10px;
+	margin-top:120px;
+	background-color: #4050b6;
+	color: white;
+}
+
+button:hover{
+	background-color:  #172375;;
+
+}
+
+button:active
+
+.content{
+	margin: 20px 0;
+}
+
+.estudante{
+	height:50%;
+	width: 500px;
+	display: flex;	
+	margin-left: -50px;
+	margin-top: 0;
+	
+}
+
+
