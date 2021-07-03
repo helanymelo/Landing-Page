@@ -234,3 +234,16 @@ button:active
 	
 }
 
+form {
+    
+    font-size: 15px;
+    background-color:rgb(87, 83, 83);
+    max-width: 500px;
+    position: absolute;
+    border-radius: 5px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%)
+    
+}
+
