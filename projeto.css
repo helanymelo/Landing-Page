@@ -1,3 +1,5 @@
+/* Limpando o CSS */
+
 * {
     margin: 0;
     padding: 0;
@@ -72,6 +74,9 @@ nav #icon {
     padding: 20px;
     margin-right: 40px;
 }
+
+
+/* rodape*/
 
 footer {
     position: fixed;
