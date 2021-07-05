@@ -102,21 +102,6 @@ footer img:hover{
 
 
 
-form {
-    
-    font-size: 15px;
-    background-color:rgb(87, 83, 83);
-    max-width: 500px;
-    position: absolute;
-    border-radius: 5px;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%)
-    
-    
-    
-}
-
 h1 {
     margin-bottom: 20px;
     margin-left: 20px;
@@ -157,11 +142,7 @@ input:hover, textarea:hover, input:focus, textarea:focus {
 	align-content: center;
 	margin-right: 250px;
   
-    
-    
-    
 
-    
 }
 
 textarea {
@@ -252,5 +233,4 @@ button:active
 	margin-top: 0;
 	
 }
-
 
