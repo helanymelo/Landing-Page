@@ -1,87 +1,275 @@
-/* Limpando o CSS e Definindo Padrôes */
-
-* {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    list-style: none;
-}
-
-body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-
-
-/* Area Logo e Menu */
-
-section {
-    flex-grow: 1;
-}
-
-nav {
-    height: 80px;
-    width: 100%;
-    background: #4050b6;
-}
-
-.logo {
-    padding: 0 0px;
-    line-height: 80px;
-    width: 94px;
-    height: 80px;
-    margin: 0;
-    left: 80px;
-}
-
-nav ul {
-    float: right;
-    margin-right: 80px;
-}
-
-nav li {
-    display: inline-flex;
-    margin: 0 8px;
-    line-height: 80px;
-}
-
-nav a {
-    color: rgb(236, 234, 234);
-    font-size: 18px;
-    border: 1px solid transparent;
-    padding: 3px 10px;
-    border-radius: 2px;
-}
-
-a.active,
-a:hover {
-    color: rgb(36, 35, 35);
-}
-
-nav ul {
-    margin-left: 20px;
-}
-
-nav a {
-    font-size: 17px;
-}
-
-nav #icon {
-    color: white;
-}
-
-#search-icon {
-    position: absolute;
-    padding: 20px;
-    margin-right: 40px;
-}
-
-
-/* botão Investir*/
-
-button {
+    /* Limpando o CSS e Definindo Padrôes */
+    
+    * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+    }
+    
+    body {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+    /* Area Logo e Menu */
+    
+    h2,
+    h3,
+    p {
+        padding: 8px;
+    }
+    
+    nav {
+        padding: 5px 40px;
+    }
+    
+    nav ul {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    nav ul li {
+        padding: 15px 0;
+        cursor: pointer;
+    }
+    
+    nav ul li.items {
+        position: relative;
+        width: auto;
+        margin: 0 16px;
+        text-align: center;
+    }
+    
+    nav ul li.items:after {
+        position: absolute;
+        content: '';
+        left: 0;
+        bottom: 5px;
+        height: 2px;
+        width: 100%;
+        background: #8a8d8d;
+        opacity: 0;
+        transition: all 0.2s linear;
+    }
+    
+    nav ul li.items:hover:after {
+        opacity: 1;
+        bottom: 8px;
+    }
+    
+    nav ul li.logo {
+        flex: 1;
+        color: black;
+        font-size: 32px;
+        font-weight: 600;
+        cursor: default;
+        user-select: none;
+    }
+    
+    nav ul li a {
+        color: black;
+        font-size: 26px;
+        font-weight: 600;
+        text-decoration: none;
+        transition: .4s;
+    }
+    
+    nav ul li:hover a {
+        color: #8a8d8d;
+    }
+    
+    @media all and (max-width: 900px) {
+        nav {
+            padding: 5px 30px;
+        }
+        nav ul li.items {
+            width: 100%;
+        }
+        nav ul li.items:hover {
+            border-radius: 5px;
+            box-shadow: inset 0 0 5px #8a8d8d;
+            box-shadow: inset 0 0 10px #161616;
+        }
+        nav ul li.items:hover:after {
+            opacity: 0;
+        }
+    }
+    
+    body {
+        background-color: white;
+        font-weight: 500;
+        /* display: flex; */
+        align-items: left;
+        min-height: 110vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-image: url(./img/romantic-african-woman-with-trendy-hairstyle-sitting-at-her-workplace-and-analysing-data-indoor-portrait-of-black-female-student-working-with-laptop-before-exam.jpg);
+        min-height: 100vh;
+        /*AJUSTE RESPONSIVIDADE*/
+        min-width: 100vw;
+        /*AJUSTE RESPONSIVIDADE*/
+    }
+    
+    main {
+        width: 50vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem 4rem;
+        /*AJUSTE RESPONSIVIDADE*/
+    }
+    
+    main h1 {
+        color: #8880FE;
+        font-size: 3rem;
+        margin-bottom: 3rem;
+        text-align: center;
+        /*AJUSTE RESPONSIVIDADE*/
+    }
+    
+    main .social-media {
+        display: flex;
+        align-content: center;
+    }
+    
+    main .social-media {
+        text-decoration: none;
+    }
+    
+    main .social-media img {
+        width: 36px;
+        margin-left: 3rem;
+    }
+    
+    main .social-media a:first-child img {
+        margin-left: 0;
+    }
+    
+    main .alternative {
+        margin-top: 1rem;
+    }
+    
+    main .alternative span {
+        font-size: 1.1rem;
+        font-weight: 400;
+        color: black;
+        position: relative;
+    }
+    
+    main .alternative span::before,
+    main .alternative span::after {
+        position: absolute;
+        content: '';
+        height: 1px;
+        width: 100px;
+        bottom: 50%;
+        right: 50px;
+        background: black;
+    }
+    
+    main .alternative span::after {
+        left: 50px;
+    }
+    
+    main form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    main form label {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    main form label span {
+        font-size: 1.1rem;
+        margin-top: 2rem;
+    }
+    
+    main form input {
+        background: white;
+        width: 300px;
+        height: 50px;
+        padding: 0 0.5rem;
+        margin-top: 1rem;
+        outline: none;
+        color: black;
+        font-size: 1.2rem;
+        border: 1px solid white;
+        border-radius: 8px;
+    }
+    
+    main form input[type="submit"] {
+        cursor: pointer;
+        width: 50%;
+        margin-top: 4rem;
+        border: none;
+        border-radius: 32px;
+        background: #6c63ff;
+        color: white;
+        font-size: 1.1rem;
+        transition: all .3s ease-in-out;
+    }
+    
+    main form input[type="submit"]:hover {
+        background: #5952d4
+    }
+    
+    @media only screen and (max-width: 900px) {
+        main {
+            width: 100vw;
+        }
+    }
+    
+    @media only screen and (max-width: 450px) {
+        main h1 {
+            font-size: 2rem;
+        }
+        main .alternative span {
+            font-size: 0.8rem;
+        }
+        main form label span,
+        main form input[type="submit"] {
+            font-size: 1rem;
+        }
+    }
+    /*Area com o Grid*/
+    
+    .texto {
+        text-align: center;
+    }
+    
+    .projetos-disponiveis {
+        background-color: white;
+        height: 400px;
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        box-shadow: 2px 2px 5px darkgray;
+    }
+    
+    .img-disponiveis {
+        width: 100%;
+    }
+    
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 8px;
+        margin-right: 90px;
+    }
+    /* botão Investir button {
     width: 210px;
     height: 50px;
     border-radius: 10px;
@@ -97,37 +285,14 @@ button:hover {
 
 button:active .content {
     margin: 20px 0;
-}
-
-
-/*Container*/
-
-.container {
-    display: grid;
-    grid-template-columns: repeat(3, auto);
-    grid-template-rows: repeat(3, 1fr);
-    row-gap: 8px;
-    column-gap: 8px;
-    justify-items: right;
-}
-
-
-/* rodape*/
-
-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100vw;
-    background: #1f1f24;
-    text-align: center;
-}
-
-footer h3,
-p {
-    color: rgb(207, 135, 135)
-}
-
-footer img:hover {
-    transform: scale(1.3);
-    z-index: 2;
-}
+} */
+    /*Container*/
+    
+    .container {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        grid-template-rows: repeat(3, 1fr);
+        row-gap: 8px;
+        column-gap: 8px;
+        justify-items: right;
+    }
