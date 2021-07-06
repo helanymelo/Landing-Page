@@ -39,7 +39,7 @@ nav ul li.items:after {
     bottom: 5px;
     height: 2px;
     width: 100%;
-    background: #8a8d8d;
+    background: #6F6F73;
     opacity: 0;
     transition: all 0.2s linear;
 }
@@ -51,7 +51,7 @@ nav ul li.items:hover:after {
 
 nav ul li.logo {
     flex: 1;
-    color: black;
+    color: #222226;
     font-size: 32px;
     font-weight: 600;
     cursor: default;
@@ -59,7 +59,7 @@ nav ul li.logo {
 }
 
 nav ul li a {
-    color: black;
+    color: #222226;
     font-size: 26px;
     font-weight: 600;
     text-decoration: none;
@@ -67,7 +67,7 @@ nav ul li a {
 }
 
 nav ul li:hover a {
-    color: #8a8d8d;
+    color: #6F6F73;
 }
 
 @media all and (max-width: 900px) {
@@ -81,8 +81,8 @@ nav ul li:hover a {
 
     nav ul li.items:hover {
         border-radius: 5px;
-        box-shadow: inset 0 0 5px #8a8d8d;
-        box-shadow: inset 0 0 10px #161616;
+        box-shadow: inset 0 0 5px #6F6F73;
+        box-shadow: inset 0 0 10px #222226;
     }
 
     nav ul li.items:hover:after {
@@ -119,7 +119,7 @@ main {
 }
 
 main h1 {
-    color: #8880FE;
+    color: #6F6F73;
     font-size: 3rem;
     margin-bottom: 3rem;
     text-align: center; /*AJUSTE RESPONSIVIDADE*/
@@ -150,7 +150,7 @@ main .alternative {
 main .alternative span {
     font-size: 1.1rem;
     font-weight: 400;
-    color: black;
+    color: #222226;
     position: relative;
 }
 
@@ -161,7 +161,7 @@ main .alternative span::before, main .alternative span::after {
     width: 100px;
     bottom: 50%;
     right: 50px;
-    background: black;
+    background: #222226;
 }
 
 main .alternative span::after {
@@ -191,7 +191,7 @@ main form input {
     padding: 0 0.5rem;
     margin-top: 1rem;
     outline: none;
-    color: black;
+    color: #222226;
     font-size: 1.2rem;
     border: 1px solid white;
     border-radius: 8px;
@@ -203,14 +203,14 @@ main form input[type="submit"] {
     margin-top: 4rem;
     border: none;
     border-radius: 32px;
-    background: #6c63ff;
+    background: #222226;
     color: white;
     font-size: 1.1rem;
     transition: all .3s ease-in-out;
 }
 
 main form input[type="submit"]:hover {
-    background: #5952d4
+    background: #222226
 }
 
 @media only screen and (max-width: 900px) {

@@ -124,8 +124,6 @@ body {
 
 /*CARDS*/
 
-
-
 main.cards {
     display: grid;
     padding: 32px;
@@ -157,15 +155,15 @@ main.cards section.card img {
 }
 
 main.cards section.card h3 {
-    font-size: 100%;
+    font-size: 120%;
     margin: 16px 0;
     color: black;
 }
 
 main.cards section.card span {
-    font-weight: 300;
+    font-weight: 600;
     max-width: 240px;
-    font-size: 80%;
+    font-size: 84%;
     margin-bottom: 16px;
     color: black;
 }
@@ -183,16 +181,16 @@ main.cards section.card button {
 }
 
 main.cards section.card.simule button {
-    background: linear-gradient(to right, #9F66FF, #DFCBFF);
+    background: linear-gradient(to right, #222226, #6F6F73);
 }
 main.cards section.card.preencha button {
-    background: linear-gradient(to right, #3E8AFF, #BBDEFF);
+    background: linear-gradient(to right, #222226, #6F6F73);
 }
 main.cards section.card.aguarde button {
-    background: linear-gradient(to right, #FE5F8F, #FFC7D9);
+    background: linear-gradient(to right, #222226, #6F6F73);
 }
 
-main.cards section.card.simule {
+/* main.cards section.card.simule {
     box-shadow: 20px 20px 50px -30px #DBC4FF;
 }
 main.cards section.card.preencha {
@@ -200,7 +198,7 @@ main.cards section.card.preencha {
 }
 main.cards section.card.aguarde {
     box-shadow: 20px 20px 50px -30px #FFC1D5;
-}
+} */
 
 @media screen and (max-width: 720px) {
     main.cards {
