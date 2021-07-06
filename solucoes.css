@@ -51,7 +51,7 @@ nav ul li.items:hover:after {
 
 nav ul li.logo {
     flex: 1;
-    color: white;
+    color: black;
     font-size: 32px;
     font-weight: 600;
     cursor: default;
@@ -59,7 +59,7 @@ nav ul li.logo {
 }
 
 nav ul li a {
-    color: white;
+    color: black;
     font-size: 26px;
     font-weight: 600;
     text-decoration: none;
@@ -96,71 +96,16 @@ nav ul li:hover a {
 
 
 body {
-    background-color: white;
     font-weight: 500;
-    /* display: flex; */
-    align-items: left;
+    display: grid;
     min-height: 110vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    background-image: url(./img/smiling-man-and-woman-at-cash-register.jpg);
+    background-image: url(./img/happy-cheerful-dark-skinned-girl-smiles-gently.jpg);
     min-height: 100vh; /*AJUSTE RESPONSIVIDADE*/
     min-width: 100vw; /*AJUSTE RESPONSIVIDADE*/
 }
-
-main {
-    width: 50vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 3rem;
-    padding: 2rem 4rem; /*AJUSTE RESPONSIVIDADE*/
-}
-
-main h1 {
-    color: white;
-    font-size: 3rem;
-    margin-bottom: 3rem;
-    margin-bottom: 10rem;
-    text-align: center; /*AJUSTE RESPONSIVIDADE*/
-}
-
-main .social-media {
-    display: flex;
-    align-content: center;
-}
-
-main .social-media {
-    text-decoration: none;
-    
-}
-
-main .social-media img {
-    width: 36px;
-    margin-left: 3rem;
-    
-}
-
-
-
-main form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-main form label {
-    display: flex;
-    flex-direction: column;
-}
-
-main form label span {
-    font-size: 1.1rem;
-    margin-top: 2rem;
-}
-
 
 
 @media only screen and (max-width: 900px) {
@@ -172,6 +117,107 @@ main form label span {
 @media only screen and (max-width: 450px) {
     main h1 {
         font-size: 2rem;
+    }
+
+}
+
+
+/*CARDS*/
+
+
+
+main.cards {
+    display: grid;
+    padding: 32px;
+}
+
+main.cards section.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: transparent;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    max-height: 468px;
+    margin-left: 32px;
+}
+
+main.cards section.card:first-child {
+    margin-left: 0;
+}
+
+main.cards section.card .icon {
+    width: 64px;
+    height: 64px;
+}
+
+main.cards section.card img {
+    width: 100%;
+}
+
+main.cards section.card h3 {
+    font-size: 100%;
+    margin: 16px 0;
+    color: black;
+}
+
+main.cards section.card span {
+    font-weight: 300;
+    max-width: 240px;
+    font-size: 80%;
+    margin-bottom: 16px;
+    color: black;
+}
+
+main.cards section.card button {
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    border-radius: 32px;
+    border: 0;
+    cursor: pointer;
+    font-size: 80%;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 16px 0;
+}
+
+main.cards section.card.simule button {
+    background: linear-gradient(to right, #9F66FF, #DFCBFF);
+}
+main.cards section.card.preencha button {
+    background: linear-gradient(to right, #3E8AFF, #BBDEFF);
+}
+main.cards section.card.aguarde button {
+    background: linear-gradient(to right, #FE5F8F, #FFC7D9);
+}
+
+main.cards section.card.simule {
+    box-shadow: 20px 20px 50px -30px #DBC4FF;
+}
+main.cards section.card.preencha {
+    box-shadow: 20px 20px 50px -30px #AFD6FF;
+}
+main.cards section.card.aguarde {
+    box-shadow: 20px 20px 50px -30px #FFC1D5;
+}
+
+@media screen and (max-width: 720px) {
+    main.cards {
+        flex-direction: column;
+    }
+
+    main.cards section.card {
+        margin-left: 0;
+        margin-bottom: 32px;
+    }
+
+    main.cards section.card:last-child {
+        margin-bottom: 0;
+    }
+
+    main.cards section.card button {
+        font-size: 70%;
     }
 
 }
