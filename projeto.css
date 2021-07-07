@@ -110,7 +110,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
-        background-image: url(./img/romantic-african-woman-with-trendy-hairstyle-sitting-at-her-workplace-and-analysing-data-indoor-portrait-of-black-female-student-working-with-laptop-before-exam.jpg);
+        background-image: url(./img/branco.jpg);
         min-height: 100vh;
         /*AJUSTE RESPONSIVIDADE*/
         min-width: 100vw;
@@ -267,7 +267,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 8px;
-        margin-right: 90px;
+        margin-right: 400px;
     }
     /* botão Investir button {
     width: 210px;
