@@ -1,114 +1,221 @@
-*{
-	margin: 0;
-	padding: 0;
-	text-decoration: none;
-	list-style: none;
-	
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap'); */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 
-body{
-	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-	display: flex;
-	flex-direction: column;
-	min-height: 100vh;
+nav {
+    padding: 5px 40px;
 }
 
-section{
-	flex-grow:1;
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
-nav{
-	height: 80px;
-	width: 100%;
-	background: #4050b6;
+nav ul li {
+    padding: 15px 0;
+    cursor: pointer;
 }
 
-.logo{
-	padding:0 0px;
-	line-height: 80px;
-	width: 94px;
-	height: 80px;
-	margin:0;
-	left: 80px;
-
-	
+nav ul li.items {
+    position: relative;
+    width: auto;
+    margin: 0 16px;
+    text-align: center;
 }
 
-nav ul{
-	float: right;
-	margin-right:80px;
-	
+nav ul li.items:after {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 5px;
+    height: 2px;
+    width: 100%;
+    background: #8a8d8d;
+    opacity: 0;
+    transition: all 0.2s linear;
+}
+
+nav ul li.items:hover:after {
+    opacity: 1;
+    bottom: 8px;
+}
+
+nav ul li.logo {
+    flex: 1;
+    color: black;
+    font-size: 32px;
+    font-weight: 600;
+    cursor: default;
+    user-select: none;
+}
+
+nav ul li a {
+    color: black;
+    font-size: 26px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: .4s;
+}
+
+nav ul li:hover a {
+    color: #8a8d8d;
+}
+
+@media all and (max-width: 900px) {
+    nav {
+        padding: 5px 30px;
+    }
+    
+    nav ul li.items {
+        width: 100%;
+    }
+
+    nav ul li.items:hover {
+        border-radius: 5px;
+        box-shadow: inset 0 0 5px #8a8d8d;
+        box-shadow: inset 0 0 10px #161616;
+    }
+
+    nav ul li.items:hover:after {
+        opacity: 0;
+    }
+}
+
+
+
+
+
+
+body {
+    font-weight: 500;
+    display: grid;
+    min-height: 110vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(./img/strength-people-hands-success-meeting.jpg);
+    min-height: 100vh; /*AJUSTE RESPONSIVIDADE*/
+    min-width: 100vw; /*AJUSTE RESPONSIVIDADE*/
+}
+
+
+@media only screen and (max-width: 900px) {
+    main {
+        width: 100vw;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    main h1 {
+        font-size: 2rem;
+    }
 
 }
 
-nav li{
-	display: inline-flex;
-	margin: 0 8px;
-	line-height: 80px;
-	
-	
+
+/*CARDS*/
+
+main.cards {
+    display: grid;
+    padding: 32px;
 }
 
-nav a{
-	color: rgb(236, 234, 234);
-	font-size: 18px;
-	border: 1px solid transparent;
-	padding: 3px 10px;
-	border-radius: 2px; 
-	
+main.cards section.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: transparent;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    max-height: 468px;
+    margin-left: 32px;
 }
 
-a.active,a:hover{
-	color: rgb(36, 35, 35);
+main.cards section.card:first-child {
+    margin-left: 0;
 }
 
-nav ul{
-	margin-left: 20px;
+main.cards section.card .icon {
+    width: 64px;
+    height: 64px;
 }
 
-nav a{
-	font-size: 17px;
+main.cards section.card img {
+    width: 100%;
 }
 
-nav #icon{
-	color:white;
+main.cards section.card h3 {
+    font-size: 120%;
+    margin: 16px 0;
+    color: black;
 }
 
-#search-icon{
-	position: absolute;
-	padding: 20px;
-	margin-right: 40px;
-	
-	
+main.cards section.card span {
+    font-weight: 600;
+    max-width: 240px;
+    font-size: 84%;
+    margin-bottom: 16px;
+    color: black;
 }
 
-footer{
-	position: fixed;
-	bottom: 0;
-	width: 100vw;
-	background: #1f1f24;
-	text-align: center;
+main.cards section.card button {
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    border-radius: 32px;
+    border: 0;
+    cursor: pointer;
+    font-size: 80%;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 16px 0;
 }
 
-footer h3, p{
-	color: rgb(207, 135, 135)
+main.cards section.card.simule button {
+    background: linear-gradient(to right, #222226, #6F6F73);
 }
-footer img:hover{
-	transform:scale(1.3);
-	z-index: 2;
-
-
+main.cards section.card.preencha button {
+    background: linear-gradient(to right, #222226, #6F6F73);
 }
-
-.texto-porque{
-   margin: 50px;
-   margin-left: 2px;
-   padding-left: 10px;
-   text-align: justify;
+main.cards section.card.aguarde button {
+    background: linear-gradient(to right, #222226, #6F6F73);
 }
 
-.mulher{
-   float: left;
-   margin-right:15px;
-   border: 5px solid rgb(129, 129, 156);
+/* main.cards section.card.simule {
+    box-shadow: 20px 20px 50px -30px #DBC4FF;
+}
+main.cards section.card.preencha {
+    box-shadow: 20px 20px 50px -30px #AFD6FF;
+}
+main.cards section.card.aguarde {
+    box-shadow: 20px 20px 50px -30px #FFC1D5;
+} */
+
+@media screen and (max-width: 720px) {
+    main.cards {
+        flex-direction: column;
+    }
+
+    main.cards section.card {
+        margin-left: 0;
+        margin-bottom: 32px;
+    }
+
+    main.cards section.card:last-child {
+        margin-bottom: 0;
+    }
+
+    main.cards section.card button {
+        font-size: 70%;
+    }
+
 }
