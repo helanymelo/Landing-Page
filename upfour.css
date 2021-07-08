@@ -102,10 +102,11 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    background-image: url(./img/square-shape-formed-from-hands.jpg);
+    background-image: url(./img/multi-ethnic-young-couple-standing-face-to-face-screaming-against-whit-background.jpg);
 	min-height: 100vh; /*AJUSTE RESPONSIVIDADE*/
     min-width: 100vw; /*AJUSTE RESPONSIVIDADE*/
 }
+
 
 @media only screen and (max-width: 900px) {
     main {
