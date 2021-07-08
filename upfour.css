@@ -155,7 +155,7 @@ main.cards section.card img {
 }
 
 main.cards section.card h3 {
-    font-size: 120%;
+    font-size: 160%;
     margin: 16px 0;
     color: black;
 }
@@ -163,42 +163,11 @@ main.cards section.card h3 {
 main.cards section.card span {
     font-weight: 600;
     max-width: 240px;
-    font-size: 84%;
+    font-size: 104%;
     margin-bottom: 16px;
     color: black;
 }
 
-main.cards section.card button {
-    padding: 0.5rem 1rem;
-    text-transform: uppercase;
-    border-radius: 32px;
-    border: 0;
-    cursor: pointer;
-    font-size: 80%;
-    font-weight: 500;
-    color: #fff;
-    margin-bottom: 16px 0;
-}
-
-main.cards section.card.simule button {
-    background: linear-gradient(to right, #222226, #6F6F73);
-}
-main.cards section.card.preencha button {
-    background: linear-gradient(to right, #222226, #6F6F73);
-}
-main.cards section.card.aguarde button {
-    background: linear-gradient(to right, #222226, #6F6F73);
-}
-
-/* main.cards section.card.simule {
-    box-shadow: 20px 20px 50px -30px #DBC4FF;
-}
-main.cards section.card.preencha {
-    box-shadow: 20px 20px 50px -30px #AFD6FF;
-}
-main.cards section.card.aguarde {
-    box-shadow: 20px 20px 50px -30px #FFC1D5;
-} */
 
 @media screen and (max-width: 720px) {
     main.cards {
@@ -212,10 +181,6 @@ main.cards section.card.aguarde {
 
     main.cards section.card:last-child {
         margin-bottom: 0;
-    }
-
-    main.cards section.card button {
-        font-size: 70%;
     }
 
 }
