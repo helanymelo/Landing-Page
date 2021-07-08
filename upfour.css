@@ -51,7 +51,7 @@ nav ul li.items:hover:after {
 
 nav ul li.logo {
     flex: 1;
-    color: #222226;
+    color: black;
     font-size: 32px;
     font-weight: 600;
     cursor: default;
@@ -59,7 +59,7 @@ nav ul li.logo {
 }
 
 nav ul li a {
-    color: #222226;
+    color: black;
     font-size: 26px;
     font-weight: 600;
     text-decoration: none;
@@ -82,7 +82,7 @@ nav ul li:hover a {
     nav ul li.items:hover {
         border-radius: 5px;
         box-shadow: inset 0 0 5px #8a8d8d;
-        box-shadow: inset 0 0 10px #222226;
+        box-shadow: inset 0 0 10px #161616;
     }
 
     nav ul li.items:hover:after {
@@ -103,7 +103,7 @@ body {
     background-size: cover;
     background-position: center center;
     background-image: url(./img/multi-ethnic-young-couple-standing-face-to-face-screaming-against-whit-background.jpg);
-	min-height: 100vh; /*AJUSTE RESPONSIVIDADE*/
+    min-height: 100vh; /*AJUSTE RESPONSIVIDADE*/
     min-width: 100vw; /*AJUSTE RESPONSIVIDADE*/
 }
 
@@ -137,8 +137,8 @@ main.cards section.card {
     background: transparent;
     padding: 1rem 1.5rem;
     border-radius: 8px;
-    max-height: 100px;
-	margin-bottom: 250px;
+    max-height: 468px;
+    margin-left: 32px;
 }
 
 main.cards section.card:first-child {
@@ -157,48 +157,17 @@ main.cards section.card img {
 main.cards section.card h3 {
     font-size: 160%;
     margin: 16px 0;
-    color: #222226;
+    color: black;
 }
 
 main.cards section.card span {
     font-weight: 600;
     max-width: 240px;
-    font-size: 120%;
+    font-size: 104%;
     margin-bottom: 16px;
-    color: #222226;
+    color: black;
 }
 
-main.cards section.card button {
-    padding: 0.5rem 1rem;
-    text-transform: uppercase;
-    border-radius: 32px;
-    border: 0;
-    cursor: pointer;
-    font-size: 80%;
-    font-weight: 500;
-    color: #fff;
-    margin-bottom: 16px 0;
-}
-
-main.cards section.card.simule button {
-    background: linear-gradient(to right, #222226, #6F6F73);
-}
-main.cards section.card.preencha button {
-    background: linear-gradient(to right, #222226, #6F6F73);
-}
-main.cards section.card.aguarde button {
-    background: linear-gradient(to right, #222226, #6F6F73);
-}
-
-/* main.cards section.card.simule {
-    box-shadow: 20px 20px 50px -30px #DBC4FF;
-}
-main.cards section.card.preencha {
-    box-shadow: 20px 20px 50px -30px #AFD6FF;
-}
-main.cards section.card.aguarde {
-    box-shadow: 20px 20px 50px -30px #FFC1D5;
-} */
 
 @media screen and (max-width: 720px) {
     main.cards {
@@ -212,10 +181,6 @@ main.cards section.card.aguarde {
 
     main.cards section.card:last-child {
         margin-bottom: 0;
-    }
-
-    main.cards section.card button {
-        font-size: 70%;
     }
 
 }
