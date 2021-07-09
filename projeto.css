@@ -8,7 +8,8 @@
     font-family: "Poppins", sans-serif;
 }
 
-body {
+
+/*body {
     background-color: white;
     display: grid;
     flex-direction: column;
@@ -21,9 +22,12 @@ body {
     background-position: center center;
     min-height: 100vh;
     /*AJUSTE RESPONSIVIDADE*/
-    min-width: 100vw;
-    /*AJUSTE RESPONSIVIDADE*/
-}
+
+
+/* 
+min-width: 100vw;}
+
+/*AJUSTE RESPONSIVIDADE*/
 
 
 /* Area Logo e Menu */
@@ -60,14 +64,12 @@ nav ul li {
 }
 
 nav ul li.items {
-    position: relative;
     width: auto;
     margin: 0 16px;
     text-align: center;
 }
 
 nav ul li.items:after {
-    position: absolute;
     content: '';
     left: 0;
     bottom: 5px;
@@ -140,7 +142,6 @@ main {
 
 #area-grid {
     width: 900px;
-    /* display: flex; */
     justify-content: center;
     align-items: center;
 }
@@ -193,6 +194,9 @@ button:hover {
 button:active .content {
     margin: 20px 0;
 }
+
+
+/* area responsividade */
 
 @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
     /* celulares */
