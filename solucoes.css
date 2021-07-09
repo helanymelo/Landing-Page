@@ -176,6 +176,7 @@ main.cards section.card button {
     margin-bottom: 16px 0;
 }
 
+
 main.cards section.card.simule button {
     background: linear-gradient(to right, #222226, #6F6F73);
 }

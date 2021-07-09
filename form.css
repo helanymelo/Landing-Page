@@ -207,14 +207,14 @@ main form input[type="submit"] {
     margin-top: 4rem;
     border: none;
     border-radius: 32px;
-    background: #222226;
+    background:linear-gradient(to right, #222226, #6F6F73);
     color: white;
     font-size: 1.3rem;
     transition: all .3s ease-in-out;
 }
 
 main form input[type="submit"]:hover {
-    background: #222226
+    background:#8a8d8d;
 }
 
 @media only screen and (max-width: 900px) {
