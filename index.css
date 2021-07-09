@@ -210,3 +210,33 @@ main.cards section.card.aguarde {
         font-size: 70%;
     }
 }
+
+
+
+.projetos-disponiveis {
+    background-color: white;
+    height: 400px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 2px 2px 5px darkgray;
+}
+
+.img-disponiveis {
+    width: 100%;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 8px;
+    margin-left: 370px;
+    margin-top: 30px;
+}
+
+main{
+    margin: auto;
+    
+}
