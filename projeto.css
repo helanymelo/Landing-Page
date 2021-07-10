@@ -15,6 +15,9 @@ body {
     background-position: center;
 }
 
+
+/* Area Logo e Menu */
+
 h2,
 h3,
 p {
@@ -24,9 +27,6 @@ p {
 h2 {
     font-size: 32px;
 }
-
-
-/* Area Logo e Menu */
 
 nav {
     padding: 5px 40px;
@@ -109,13 +109,13 @@ nav ul li:hover a {
     text-align: center;
 }
 
-
-/*Area com a Flexbox*/
-
 .container {
     width: 90%;
     margin: 50px auto;
 }
+
+
+/*Area com do Flexbox*/
 
 .row {
     display: flex;
@@ -139,7 +139,7 @@ nav ul li:hover a {
 }
 
 
-/*Area com a responsividade*/
+/* area responsividade */
 
 @media screen and (max-width: 1000px) {
     .projetos-disponiveis {
@@ -163,14 +163,14 @@ nav ul li:hover a {
     width: 168px;
     height: 38px;
     border-radius: 10px;
-    background: linear-gradient(to right, #222226, #6F6F73);
+    background-color: black;
     color: white;
     margin-top: 30px;
-    cursor: pointer;
 }
 
 button:hover {
-    background: #8a8d8d;
+    background-color: #8a8d8d;
+    ;
 }
 
 button:active .content {
