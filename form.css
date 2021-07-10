@@ -3,11 +3,12 @@
     padding: 0;
     border: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 nav {
     padding: 5px 40px;
+    
 }
 
 nav ul {
@@ -123,6 +124,7 @@ main h1 {
 main .social-media {
     display: flex;
     align-content: center;
+    
 }
 
 main .social-media {
@@ -132,10 +134,17 @@ main .social-media {
 main .social-media img {
     width: 36px;
     margin-left: 3rem;
+    
+}
+
+main .social-media img:hover{
+    cursor:pointer;
+    transform: translateY(-5px);
 }
 
 main .social-media a:first-child img {
     margin-left: 0;
+    
 }
 
 main .alternative {
@@ -192,20 +201,23 @@ main form input {
     border-radius: 8px;
 }
 
+
+
 main form input[type="submit"] {
     cursor: pointer;
     width: 50%;
     margin-top: 4rem;
     border: none;
     border-radius: 32px;
-    background: #222226;
+    background:linear-gradient(to right, #222226, #999999);
     color: white;
     font-size: 1.3rem;
     transition: all .3s ease-in-out;
 }
 
 main form input[type="submit"]:hover {
-    background: #222226
+    background:#999999;
+    transition: all 600ms ease;
 }
 
 @media only screen and (max-width: 900px) {

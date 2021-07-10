@@ -90,13 +90,9 @@ nav ul li:hover a {
     }
 }
 
-
-
-
-
-
 body {
     font-weight: 500;
+    font-family: "Graphik-Medium", "Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
     display: grid;
     min-height: 110vh;
     background-repeat: no-repeat;
@@ -180,15 +176,39 @@ main.cards section.card button {
     margin-bottom: 16px 0;
 }
 
+
 main.cards section.card.simule button {
     background: linear-gradient(to right, #222226, #6F6F73);
 }
+
+main.cards section.card.simule button:hover{
+    background:#999999;
+    transition: all 600ms ease;
+
+}
+
 main.cards section.card.preencha button {
     background: linear-gradient(to right, #222226, #6F6F73);
 }
+
+main.cards section.card.preencha button:hover{
+    background:#999999;
+    transition: all 600ms ease;
+}
+
+
 main.cards section.card.aguarde button {
     background: linear-gradient(to right, #222226, #6F6F73);
 }
+
+main.cards section.card.aguarde button:hover{
+    background:#999999;
+    transition: all 600ms ease;
+
+}
+
+
+
 
 /* main.cards section.card.simule {
     box-shadow: 20px 20px 50px -30px #DBC4FF;
