@@ -22,9 +22,13 @@
     color: #FFFFFF;
     text-decoration: none;
     padding: 10px 30px;
-    background-color: rgb(39, 38, 38);
+    background: linear-gradient(to right, #222226, #999999);
     font-size: .9em;
-    border-radius: 3px;
+    border-radius: 32px;
+  }
+
+  .botao:hover {
+      background: black;
   }
   
   /*NAVEGAÇÂO*/
@@ -174,6 +178,10 @@
     width: 30%;
   
   }
+
+  #solucoes img:hover{
+    cursor: pointer;
+}
   
   #solucoes h2 {
     color: rgb(39, 38, 38);
@@ -202,6 +210,7 @@
   #fotos h2 {
     margin-bottom: 20px;
     color: rgb(39, 38, 38);
+    font-size: 40px;
   }
   
   #fotos img {
@@ -224,13 +233,14 @@
   }
   
   #contato p {
-    padding: 28px;
+    text-align: center;
+    padding: 18px;
   }
   
   footer {
     text-align: center;
     padding: 10px;
-    background-color: #6F6F73;
+    background-color: black;
     color: #FFFFFF
   }
   
@@ -335,7 +345,7 @@
   
   /*DOIS PRIMEIROS BANNERS*/
   
-  @media screen and (max-width: 1301px) {
+  @media screen and (max-width: 1592px) {
     
     header {
       background-image: none;
