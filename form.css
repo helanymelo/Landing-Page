@@ -217,8 +217,8 @@ main form input[type="submit"] {
 
 main form input[type="submit"]:hover {
 
-    background:#222226;
-    transition: all 600ms ease;
+    background:black;
+    
 }
 
 @media only screen and (max-width: 900px) {
