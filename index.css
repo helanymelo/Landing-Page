@@ -198,6 +198,13 @@
     font-size: 24px;
     padding: 30px;
   }
+
+  .nova h2 {
+    color: rgb(39, 38, 38);
+    font-size: 3.4em;
+    text-align: center;
+    padding: 20px 0px;
+  }
   /*FOTOS*/
   
   #fotos {
@@ -363,6 +370,21 @@
   
     #sobre p {
       font-size: 24px;
+    }
+
+    #solucoes p {
+      padding: .2px;
+    }
+
+    #fotos h2 {
+      padding: 60px;
+    }
+
+    .nova h2 {
+      color: rgb(39, 38, 38);
+      font-size: 3.4em;
+      text-align: center;
+      padding: 80px 40px;
     }
   }
   
