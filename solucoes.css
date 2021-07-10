@@ -182,7 +182,7 @@ main.cards section.card.simule button {
 }
 
 main.cards section.card.simule button:hover{
-    background:#999999;
+    background:black;
     transition: all 600ms ease;
 
 }
@@ -192,7 +192,7 @@ main.cards section.card.preencha button {
 }
 
 main.cards section.card.preencha button:hover{
-    background:#999999;
+    background:black;
     transition: all 600ms ease;
 }
 
@@ -202,7 +202,7 @@ main.cards section.card.aguarde button {
 }
 
 main.cards section.card.aguarde button:hover{
-    background:#999999;
+    background:black;
     transition: all 600ms ease;
 
 }

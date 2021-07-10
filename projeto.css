@@ -45,12 +45,14 @@ nav ul li {
 }
 
 nav ul li.items {
+    position: relative;
     width: auto;
     margin: 0 16px;
     text-align: center;
 }
 
 nav ul li.items:after {
+    position: absolute;
     content: '';
     left: 0;
     bottom: 5px;
@@ -106,21 +108,23 @@ nav ul li:hover a {
 
 .texto {
     text-align: center;
+    padding: 90px;
 }
 
 .container {
     width: 90%;
-    margin: 50px auto;
+    margin: 20px auto;
 }
 
 
-/*Area com do Flexbox*/
+/*Area do Flexbox*/
 
 .row {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     flex-flow: wrap;
+    padding: 10px;
 }
 
 .projetos-disponiveis {
