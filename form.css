@@ -201,6 +201,12 @@ main form input {
     border-radius: 8px;
 }
 
+main form input:hover{
+    border: 1px solid #999999;
+
+}
+
+
 
 
 main form input[type="submit"] {
@@ -216,7 +222,7 @@ main form input[type="submit"] {
 }
 
 main form input[type="submit"]:hover {
-    background:#999999;
+    background:#222226;
     transition: all 600ms ease;
 }
 

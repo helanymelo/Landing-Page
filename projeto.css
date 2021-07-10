@@ -163,15 +163,17 @@ nav ul li:hover a {
 .btn-investir {
     width: 168px;
     height: 38px;
-    border-radius: 10px;
-    background: linear-gradient(to right, #222226, #6F6F73);
+    border-radius: 32px;
+    background:linear-gradient(to right, #222226, #6F6F73);   
     color: white;
     margin-top: 30px;
     cursor: pointer;
 }
 
 button:hover {
-    background: #8a8d8d;
+    background:#222226;
+    
+
 }
 
 button:active .content {
