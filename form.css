@@ -198,6 +198,10 @@ main form input {
     border-radius: 8px;
 }
 
+main form input:hover{
+    border: 1px solid #999999;
+
+}
 
 main form input[type="submit"] {
     cursor: pointer;
