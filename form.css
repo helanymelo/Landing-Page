@@ -198,6 +198,7 @@ main form input {
     border-radius: 8px;
 }
 
+
 main form input[type="submit"] {
     cursor: pointer;
     width: 50%;
@@ -211,7 +212,8 @@ main form input[type="submit"] {
 }
 
 main form input[type="submit"]:hover {
-    background: #999999;
+
+    background:#222226;
     transition: all 600ms ease;
 }
 
