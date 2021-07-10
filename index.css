@@ -159,59 +159,13 @@
     color: white;
   }
   
-  #solucoes {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 30px;
-  }
-  
-  #solucoes div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin-top: 30px;
-  }
-  
-  #solucoes img {
-    width: 30%;
-  
-  }
-
-  #solucoes img:hover{
-    cursor: pointer;
-}
-  
-  #solucoes h2 {
-    color: rgb(39, 38, 38);
-    font-size: 3.4em;
-  }
-  
-  #solucoes h3 {
-    color: rgb(39, 38, 38);
-    font-size: 20px;
-  }
-  
-  #solucoes p {
-    color: rgb(39, 38, 38);
-    font-size: 24px;
-    padding: 30px;
-  }
-
-  .nova h2 {
-    color: rgb(39, 38, 38);
-    font-size: 3.4em;
-    text-align: center;
-    padding: 20px 0px;
-  }
   /*FOTOS*/
   
   #fotos {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 20px;
+    /* padding-top: 20px; */
   }
   
   #fotos h2 {
@@ -299,29 +253,6 @@
       justify-content: center;
     }
   
-    /*Soluções*/
-  
-    #solucoes {
-      flex-direction: row;
-      flex-wrap: wrap;
-      align-items: flex-start;
-      max-width: 1000px;
-      margin: 0 auto;
-      height: 400px;
-      height: 40vh;
-      justify-content: center;
-  }
-  
-    #solucoes h2 {
-      text-align: center;
-      width: 100%;
-    }
-  
-    #solucoes div {
-      flex-grow: 1;
-      flex-basis: 150px;
-      padding: 0 10px;
-    }
   
     #fotos {
       flex-direction: row;
@@ -372,19 +303,8 @@
       font-size: 24px;
     }
 
-    #solucoes p {
-      padding: .2px;
-    }
-
     #fotos h2 {
       padding: 60px;
-    }
-
-    .nova h2 {
-      color: rgb(39, 38, 38);
-      font-size: 3.4em;
-      text-align: center;
-      padding: 80px 40px;
     }
   }
   
