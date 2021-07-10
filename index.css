@@ -1,38 +1,62 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap'); */
+/*CORP*/
 
 * {
     margin: 0;
     padding: 0;
     border: 0;
     box-sizing: border-box;
-    font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-nav {
+    font-family: "Poppins", sans-serif;
+  }
+  
+  body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+  }
+  
+  h1, h2, h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blueviolet;
+  }
+  
+  .botao {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: black;
+    font-size: .9em;
+    border-radius: 3px;
+  }
+  
+  /*NAVEGAÇÂO*/
+  
+  nav {
     padding: 5px 40px;
-}
-
-nav ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  nav ul {
     list-style: none;
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-}
-
-nav ul li {
+    flex-direction: column;
+  }
+  
+  nav ul li {
     padding: 15px 0;
     cursor: pointer;
-}
-
-nav ul li.items {
+  }
+  
+  nav ul li.items {
     position: relative;
     width: auto;
     margin: 0 16px;
     text-align: center;
-}
-
-nav ul li.items:after {
+  }
+  
+  nav ul li.items:after {
     position: absolute;
     content: '';
     left: 0;
@@ -42,201 +66,231 @@ nav ul li.items:after {
     background: #8a8d8d;
     opacity: 0;
     transition: all 0.2s linear;
-}
-
-nav ul li.items:hover:after {
+  }
+  
+  nav ul li.items:hover:after {
     opacity: 1;
     bottom: 8px;
-}
-
-nav ul li.logo {
+  }
+  
+  nav ul li.logo {
     flex: 1;
     color: black;
     font-size: 32px;
     font-weight: 600;
     cursor: default;
     user-select: none;
-}
-
-nav ul li a {
+  }
+  
+  nav ul li a {
     color: black;
     font-size: 26px;
     font-weight: 600;
     text-decoration: none;
     transition: .4s;
-}
-
-nav ul li:hover a {
+  }
+  
+  nav ul li:hover a {
     color: #8a8d8d;
-}
-
-@media all and (max-width: 900px) {
-    nav {
-        padding: 5px 30px;
-    }
-    nav ul li.items {
-        width: 100%;
-    }
-    nav ul li.items:hover {
-        border-radius: 5px;
-        box-shadow: inset 0 0 5px #8a8d8d;
-        box-shadow: inset 0 0 10px #161616;
-    }
-    nav ul li.items:hover:after {
-        opacity: 0;
-    }
-}
-
-body {
-    font-weight: 500;
-    display: grid;
-    min-height: 110vh;
-    background-repeat: no-repeat;
+  }
+  
+  
+  /*CABEÇALHO*/
+  
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../img/multi-ethnic-young-couple-standing-face-to-face-screaming-against-whit-background.jpg);
     background-size: cover;
-    background-position: center center;
-    background-image: url(./img/branco.jpg);
-    min-height: 100vh;
-    /*AJUSTE RESPONSIVIDADE*/
-    min-width: 100vw;
-    /*AJUSTE RESPONSIVIDADE*/
-}
-
-@media only screen and (max-width: 900px) {
-    main {
-        width: 100vw;
-    }
-}
-
-@media only screen and (max-width: 450px) {
-    main h1 {
-        font-size: 2rem;
-    }
-}
-
-
-/*CARDS*/
-
-main.cards {
-    display: grid;
-    padding: 32px;
-}
-
-main.cards section.card {
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #6F6F73;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header h1 {
+    color: #6F6F73;
+  }
+  
+  header p {
+    margin-bottom: 2em;
+  }
+  
+  #sobre {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background: transparent;
-    padding: 1rem 1.5rem;
-    border-radius: 8px;
-    max-height: 468px;
-    margin-left: 32px;
-}
-
-main.cards section.card:first-child {
-    margin-left: 0;
-}
-
-main.cards section.card .icon {
-    width: 64px;
-    height: 64px;
-}
-
-main.cards section.card img {
-    width: 100%;
-}
-
-main.cards section.card h3 {
-    font-size: 120%;
-    margin: 16px 0;
-    color: black;
-}
-
-main.cards section.card span {
-    font-weight: 600;
-    max-width: 240px;
-    font-size: 84%;
-    margin-bottom: 16px;
-    color: black;
-}
-
-main.cards section.card button {
-    padding: 0.5rem 1rem;
-    text-transform: uppercase;
-    border-radius: 32px;
-    border: 0;
-    cursor: pointer;
-    font-size: 80%;
-    font-weight: 500;
-    color: #fff;
-    margin-bottom: 16px 0;
-}
-
-main.cards section.card.simule button {
-    background: linear-gradient(to right, #222226, #6F6F73);
-}
-
-main.cards section.card.preencha button {
-    background: linear-gradient(to right, #222226, #6F6F73);
-}
-
-main.cards section.card.aguarde button {
-    background: linear-gradient(to right, #222226, #6F6F73);
-}
-
-
-/* main.cards section.card.simule {
-    box-shadow: 20px 20px 50px -30px #DBC4FF;
-}
-main.cards section.card.preencha {
-    box-shadow: 20px 20px 50px -30px #AFD6FF;
-}
-main.cards section.card.aguarde {
-    box-shadow: 20px 20px 50px -30px #FFC1D5;
-} */
-
-@media screen and (max-width: 720px) {
-    main.cards {
-        flex-direction: column;
-    }
-    main.cards section.card {
-        margin-left: 0;
-        margin-bottom: 32px;
-    }
-    main.cards section.card:last-child {
-        margin-bottom: 0;
-    }
-    main.cards section.card button {
-        font-size: 70%;
-    }
-}
-
-
-
-.projetos-disponiveis {
-    background-color: white;
-    height: 400px;
-    width: 250px;
+    padding: 10px 10px 20px 20px;
+    background-color: #6F6F73;
+  }
+  
+  #sobre h2 {
+    color: #f7f7fa;
+  }
+  
+  #sobre p {
+    margin-bottom: 2.5em;
+    max-width: 1000px;
+  }
+  
+  #sobre .botao {
+    background-color: yellow;
+    color: blue;
+  }
+  
+  #solucoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+  }
+  
+  #solucoes div {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    box-shadow: 2px 2px 5px darkgray;
-}
-
-.img-disponiveis {
-    width: 100%;
-}
-
-main {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 8px;
-    margin-left: 370px;
     margin-top: 30px;
-}
-
-main{
-    margin: auto;
-    
-}
+  }
+  
+  #solucoes img {
+    width: 20%;
+  }
+  
+  /*FOTOS*/
+  
+  #fotos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+  }
+  
+  #fotos h2 {
+    margin-bottom: 20px;
+  }
+  
+  #fotos img {
+    width: 100%;
+  }
+  
+  /*CONTATO*/
+  
+  #contato h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #contato h2 {
+    color: #6F6F73
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #6F6F73;
+    color: #FFFFFF
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: #6F6F73;
+  }
+  
+  @media screen and (min-width: 768px) {
+    /*nav*/
+    nav {
+      padding: 5px 30px;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+  
+    nav ul {
+      flex-direction: row;
+      width: 70%;
+    }
+  
+    nav ul li.items {
+      width: 100%;
+  }
+  
+  nav ul li.items:hover {
+    border-radius: 5px;
+    box-shadow: inset 0 0 5px #8a8d8d;
+    box-shadow: inset 0 0 10px #161616;
+  }
+  
+  nav ul li.items:hover:after {
+    opacity: 0;
+  }
+  
+    /*Cabeçalho*/
+  
+    header {
+      height: 600px;
+      height: 60vh;
+      justify-content: center;
+    }
+  
+    /*Sobre*/
+  
+    #sobre {
+      height: 250px;
+      height: 30vh;
+      justify-content: center;
+      min-height: 250px;
+    }
+  
+    /*Soluções*/
+  
+    #solucoes {
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      max-width: 1000px;
+      margin: 0 auto;
+  }
+  
+    #solucoes h2 {
+      text-align: center;
+      width: 100%;
+    }
+  
+    #solucoes div {
+      flex-grow: 1;
+      flex-basis: 150px;
+      padding: 0 10px;
+    }
+  
+    #fotos {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+  
+    #fotos h2 {
+      width: 100%;
+      text-align: center;
+    }
+  
+    #fotos img {
+      width: 33.3333333%;
+    }
+  
+    #contato {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      max-width: 500px;
+      margin: 0 auto;
+    }
+  
+    #contato h2, #contato p {
+      width: 100%;
+    }
+  }
