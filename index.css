@@ -6,57 +6,60 @@
     border: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
-  }
-  
-  body {
+}
+
+body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
-  }
-  
-  h1, h2, h3 {
+}
+
+h1,
+h2,
+h3 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: blueviolet;
-  }
-  
-  .botao {
+}
+
+.botao {
     color: #FFFFFF;
     text-decoration: none;
     padding: 10px 30px;
     background-color: black;
     font-size: .9em;
     border-radius: 3px;
-  }
-  
-  /*NAVEGAÇÂO*/
-  
-  nav {
+}
+
+
+/*NAVEGAÇÂO*/
+
+nav {
     padding: 5px 40px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-  }
-  
-  nav ul {
+}
+
+nav ul {
     list-style: none;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-  }
-  
-  nav ul li {
+}
+
+nav ul li {
     padding: 15px 0;
     cursor: pointer;
-  }
-  
-  nav ul li.items {
+}
+
+nav ul li.items {
     position: relative;
     width: auto;
     margin: 0 16px;
     text-align: center;
-  }
-  
-  nav ul li.items:after {
+}
+
+nav ul li.items:after {
     position: absolute;
     content: '';
     left: 0;
@@ -66,231 +69,217 @@
     background: #8a8d8d;
     opacity: 0;
     transition: all 0.2s linear;
-  }
-  
-  nav ul li.items:hover:after {
+}
+
+nav ul li.items:hover:after {
     opacity: 1;
     bottom: 8px;
-  }
-  
-  nav ul li.logo {
+}
+
+nav ul li.logo {
     flex: 1;
     color: black;
     font-size: 32px;
     font-weight: 600;
     cursor: default;
     user-select: none;
-  }
-  
-  nav ul li a {
+}
+
+nav ul li a {
     color: black;
     font-size: 26px;
     font-weight: 600;
     text-decoration: none;
     transition: .4s;
-  }
-  
-  nav ul li:hover a {
+}
+
+nav ul li:hover a {
     color: #8a8d8d;
-  }
-  
-  
-  /*CABEÇALHO*/
-  
-  header {
+}
+
+
+/*CABEÇALHO*/
+
+header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(../img/multi-ethnic-young-couple-standing-face-to-face-screaming-against-whit-background.jpg);
+    background-image: url(./img/casal-upfour.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     color: #6F6F73;
     text-align: center;
     padding: 20px;
-  }
-  
-  header h1 {
+}
+
+header h1 {
     color: #6F6F73;
-  }
-  
-  header p {
+}
+
+header p {
     margin-bottom: 2em;
-  }
-  
-  #sobre {
+}
+
+#sobre {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     padding: 10px 10px 20px 20px;
     background-color: #6F6F73;
-  }
-  
-  #sobre h2 {
+}
+
+#sobre h2 {
     color: #f7f7fa;
-  }
-  
-  #sobre p {
+}
+
+#sobre p {
     margin-bottom: 2.5em;
     max-width: 1000px;
-  }
-  
-  #sobre .botao {
+}
+
+#sobre .botao {
     background-color: yellow;
     color: blue;
-  }
-  
-  #solucoes {
+}
+
+#solucoes {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 30px;
-  }
-  
-  #solucoes div {
+}
+
+#solucoes div {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     margin-top: 30px;
-  }
-  
-  #solucoes img {
+}
+
+#solucoes img {
     width: 20%;
-  }
-  
-  /*FOTOS*/
-  
-  #fotos {
+}
+
+
+/*FOTOS*/
+
+#fotos {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 20px;
-  }
-  
-  #fotos h2 {
+}
+
+#fotos h2 {
     margin-bottom: 20px;
-  }
-  
-  #fotos img {
+}
+
+#fotos img {
     width: 100%;
-  }
-  
-  /*CONTATO*/
-  
-  #contato h2 {
+}
+
+
+/*CONTATO*/
+
+#contato h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     padding: 20px;
-  }
-  
-  #contato h2 {
+}
+
+#contato h2 {
     color: #6F6F73
-  }
-  
-  footer {
+}
+
+footer {
     text-align: center;
     padding: 10px;
     background-color: #6F6F73;
     color: #FFFFFF
-  }
-  
-  footer a {
+}
+
+footer a {
     text-decoration: none;
     color: #6F6F73;
-  }
-  
-  @media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 768px) {
     /*nav*/
     nav {
-      padding: 5px 30px;
-      flex-direction: row;
-      justify-content: space-around;
+        padding: 5px 30px;
+        flex-direction: row;
+        justify-content: space-around;
     }
-  
     nav ul {
-      flex-direction: row;
-      width: 70%;
+        flex-direction: row;
+        width: 70%;
     }
-  
     nav ul li.items {
-      width: 100%;
-  }
-  
-  nav ul li.items:hover {
-    border-radius: 5px;
-    box-shadow: inset 0 0 5px #8a8d8d;
-    box-shadow: inset 0 0 10px #161616;
-  }
-  
-  nav ul li.items:hover:after {
-    opacity: 0;
-  }
-  
+        width: 100%;
+    }
+    nav ul li.items:hover {
+        border-radius: 5px;
+        box-shadow: inset 0 0 5px #8a8d8d;
+        box-shadow: inset 0 0 10px #161616;
+    }
+    nav ul li.items:hover:after {
+        opacity: 0;
+    }
     /*Cabeçalho*/
-  
     header {
-      height: 600px;
-      height: 60vh;
-      justify-content: center;
+        height: 600px;
+        height: 60vh;
+        justify-content: center;
     }
-  
     /*Sobre*/
-  
     #sobre {
-      height: 250px;
-      height: 30vh;
-      justify-content: center;
-      min-height: 250px;
+        height: 250px;
+        height: 30vh;
+        justify-content: center;
+        min-height: 250px;
     }
-  
     /*Soluções*/
-  
     #solucoes {
-      flex-direction: row;
-      flex-wrap: wrap;
-      align-items: flex-start;
-      max-width: 1000px;
-      margin: 0 auto;
-  }
-  
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
     #solucoes h2 {
-      text-align: center;
-      width: 100%;
+        text-align: center;
+        width: 100%;
     }
-  
     #solucoes div {
-      flex-grow: 1;
-      flex-basis: 150px;
-      padding: 0 10px;
+        flex-grow: 1;
+        flex-basis: 150px;
+        padding: 0 10px;
     }
-  
     #fotos {
-      flex-direction: row;
-      flex-wrap: wrap;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
-  
     #fotos h2 {
-      width: 100%;
-      text-align: center;
+        width: 100%;
+        text-align: center;
     }
-  
     #fotos img {
-      width: 33.3333333%;
+        width: 33.3333333%;
     }
-  
     #contato {
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: space-around;
-      max-width: 500px;
-      margin: 0 auto;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        max-width: 500px;
+        margin: 0 auto;
     }
-  
-    #contato h2, #contato p {
-      width: 100%;
+    #contato h2,
+    #contato p {
+        width: 100%;
     }
-  }
+}
