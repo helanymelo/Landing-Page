@@ -1,11 +1,9 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap'); */
-
 * {
     margin: 0;
     padding: 0;
     border: 0;
     box-sizing: border-box;
-    font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 nav {
@@ -155,9 +153,10 @@ main.cards section.card h3 {
 main.cards section.card span {
     font-weight: 600;
     max-width: 240px;
-    font-size: 104%;
+    font-size: 1.4em;
     margin-bottom: 16px;
     color: black;
+    line-height: 30px;
 }
 
 @media screen and (max-width: 720px) {

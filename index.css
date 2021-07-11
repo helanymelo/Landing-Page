@@ -15,7 +15,6 @@
   
   h1, h2, h3 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: blueviolet;
   }
   
   .botao {
@@ -117,12 +116,12 @@
   header h1 {
     color: rgb(39, 38, 38);
     padding: 10px;
-    font-size: 4em;
+    font-size: 3.4em;
   }
   
   header p {
     margin-bottom: 2em;
-    font-size: 2em;
+    font-size: 1.6em;
     line-height: 50px;
   }
   
@@ -131,7 +130,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 10px 10px 20px 20px;
+    padding: 30px 30px 30px 30px;
     background-image: url(/img/maos-index.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -141,7 +140,7 @@
   #sobre h2 {
     color:rgb(39, 38, 38);
     padding: 10px;
-    font-size: 5em;
+    font-size: 4.4em;
   }
   
   #sobre p {
@@ -159,6 +158,52 @@
     color: white;
   }
   
+  #solucoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+  }
+  
+  #solucoes div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  #solucoes img {
+    width: 30%;
+  
+  }
+
+  #solucoes img:hover{
+    cursor: pointer;
+}
+  
+  #solucoes h2 {
+    color: rgb(39, 38, 38);
+    font-size: 2.4em;
+  }
+  
+  #solucoes h3 {
+    color: rgb(39, 38, 38);
+    font-size: 20px;
+    padding: 10px;
+  }
+  
+  #solucoes p {
+    color: rgb(39, 38, 38);
+    font-size: 24px;
+  }
+
+  .nova h2 {
+    color: rgb(39, 38, 38);
+    font-size: 2.4em;
+    text-align: center;
+  }
+
   /*FOTOS*/
   
   #fotos {
@@ -253,6 +298,29 @@
       justify-content: center;
     }
   
+    /*Soluções*/
+  
+    #solucoes {
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      max-width: 1000px;
+      margin: 0 auto;
+      height: 600px;
+      height: 60vh;
+      justify-content: center;
+  }
+  
+    #solucoes h2 {
+      text-align: center;
+      width: 100%;
+    }
+  
+    #solucoes div {
+      flex-grow: 1;
+      flex-basis: 150px;
+      padding: 0 10px;
+    }
   
     #fotos {
       flex-direction: row;
@@ -283,13 +351,17 @@
   
   /*DOIS PRIMEIROS BANNERS*/
   
-  @media screen and (max-width: 1592px) {
+  @media screen and (max-width: 1301px) {
     
     header {
-      background-image: none;
-      background: rgb(217, 219, 219);
+      /* background-image: none; */
+      /* background: rgb(217, 219, 219); */
     }
   
+    header p {
+      font-size: 1.2em;
+      font-weight: bolder;
+    }
     #sobre {
       background-image: none;
       background: rgb(149, 151, 151);
@@ -300,11 +372,19 @@
     }
   
     #sobre p {
-      font-size: 24px;
+      font-size: 1.2em;
+      font-weight: bolder;
     }
 
-    #fotos h2 {
-      padding: 60px;
+    #solucoes p {
+      padding: .2px;
+    }
+
+    .nova h2 {
+      color: rgb(39, 38, 38);
+      font-size: 3.4em;
+      text-align: center;
+      padding: 0px 10px;
     }
   }
   
