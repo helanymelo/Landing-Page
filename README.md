@@ -9,7 +9,7 @@
 # Índice
 
 - [Descrição](#-descrição-do-projeto)
-- [Link de acesso](#-como-baixar-o-projeto)
+- [Como acessar o projeto](#-como-acessar-o-projeto)
 
 ---
 
