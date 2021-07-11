@@ -1,4 +1,4 @@
-# landing-page-template
+# Landing page
 
 ![image](https://user-images.githubusercontent.com/71138743/125208375-52e2bf00-e268-11eb-9576-b714fee5332e.png)
 ![image](https://user-images.githubusercontent.com/71138743/125208020-73aa1500-e266-11eb-8db1-6e904e7c2bfb.png)
