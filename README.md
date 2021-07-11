@@ -21,7 +21,7 @@
 
 ## 🖋 Descrição do projeto
 
-O projeto **Landing Page** foi desenvolvido em grupo durante o **Bootcamp da Labenu**, com o intuito de colocarmos em prática o conteúdo estudado durante o curso, a saber: HTML e CSS puro. Trata-se de uma simulação onde fomos contratados para construir uma versão inicial simplificada de um website para um cliente, com um prazo de três semanas. Recebemos exemplos fictícios para a elaboração e escolhemos a empresa Upfor, uma financiadora de crédito para jovens empreendedores, que oferece serviços como crédito pessoal e oportunidade de mudança de vida no seu contexto social. 
+O projeto **Landing Page** foi desenvolvido em grupo durante o **Bootcamp da Labenu**, com o intuito de colocarmos em prática o conteúdo estudado durante o curso, a saber: HTML e CSS puro. Trata-se de uma simulação onde fomos contratados para construir uma versão inicial simplificada de um website para um cliente, com um prazo de três semanas. Recebemos exemplos fictícios para a elaboração e escolhemos a empresa Upfor, uma financeira de crédito para jovens empreendedores, que oferece serviços como crédito pessoal e oportunidade de mudança de vida no seu contexto social. 
 
 Os critérios foram: 
 - Responsividade testada no IPhone 6/7/8 e para a versão desktop de tela 1280px de largura.
