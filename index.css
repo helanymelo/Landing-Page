@@ -203,13 +203,14 @@
     font-size: 2.4em;
     text-align: center;
   }
+
   /*FOTOS*/
   
   #fotos {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 20px;
+    /* padding-top: 20px; */
   }
   
   #fotos h2 {
