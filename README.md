@@ -2,14 +2,14 @@
     # landing-page-template
 </h1>
 
-<img align="center" src="./landing-page-GIF" alt="gif landing page"/>
+<img align="center" src="/landing-page-GIF" alt="gif landing page"/>
 
 ---
 
 # Índice
 
 - [Descrição](#-descrição-do-projeto)
-- [Instalação](#-como-baixar-o-projeto)
+- [Link de acesso](#-como-baixar-o-projeto)
 
 ---
 
