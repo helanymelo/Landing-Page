@@ -149,7 +149,7 @@ main.cards section.card img {
 }
 
 main.cards section.card h3 {
-    font-size: 1.4em;
+    font-size: 140%;
     margin: 16px 0;
     color: black;
 }
@@ -157,7 +157,7 @@ main.cards section.card h3 {
 main.cards section.card span {
     font-weight: 600;
     max-width: 240px;
-    font-size: 1.4em%;
+    font-size: 100%;
     margin-bottom: 16px;
     color: black;
 }
