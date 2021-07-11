@@ -2,7 +2,14 @@
     # landing-page-template
 </h1>
 
-<img align="center" src="img/pag-home.PNG" alt="landing page"/>
+![image](https://user-images.githubusercontent.com/71138743/125208004-54ab8300-e266-11eb-83eb-2c8b262aef02.png)
+![image](https://user-images.githubusercontent.com/71138743/125208020-73aa1500-e266-11eb-8db1-6e904e7c2bfb.png)
+![image](https://user-images.githubusercontent.com/71138743/125208030-815f9a80-e266-11eb-9405-60edc20a7984.png)
+![image](https://user-images.githubusercontent.com/71138743/125208042-92101080-e266-11eb-9d3c-0274c3d25a77.png)
+![image](https://user-images.githubusercontent.com/71138743/125208050-9dfbd280-e266-11eb-8b33-cd0ca6466958.png)
+![image](https://user-images.githubusercontent.com/71138743/125208057-ac49ee80-e266-11eb-8852-6a2a3846680f.png)
+![image](https://user-images.githubusercontent.com/71138743/125208064-b79d1a00-e266-11eb-971b-d35db2b784af.png)
+![image](https://user-images.githubusercontent.com/71138743/125208070-c5eb3600-e266-11eb-9f55-0e9d4ac12904.png)
 
 ---
 
