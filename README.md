@@ -37,7 +37,7 @@ Os critérios foram:
 
 ## 🌎 Como acessar o projeto
 
-- [Link do surge](https://projeto-upfour-labenu-johnson.surge.sh/form.html)
+- [Link do surge](https://projeto-upfour-labenu-johnson.surge.sh)
 
 
 Desenvolvido com 🧡 por Alexandre, Ingrid e Helany 🤝
