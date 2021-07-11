@@ -2,7 +2,7 @@
     # landing-page-template
 </h1>
 
-<img align="center" src="./landing-page-GIF" alt="gif landing page"/>
+<img align="center" src="./landing-page-gif" alt="gif landing page"/>
 
 ---
 
