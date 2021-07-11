@@ -2,7 +2,7 @@
     # landing-page-template
 </h1>
 
-<img align="center" src="![image](https://user-images.githubusercontent.com/71138743/125207434-bb2ea200-e262-11eb-863a-3814008cc714.png)" alt="landing page"/>
+<img align="center" src="./landing-page-gif" alt="landing page"/>
 
 ---
 
