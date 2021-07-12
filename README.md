@@ -38,5 +38,18 @@ Os critérios foram:
 
 - [Link do surge](https://projeto-upfour-labenu-johnson.surge.sh)
 
+## 🚀 Desenvolvimento
+
+- Primeiro instale o [Git](https://git-scm.com/)
+```bash
+# Clonar o repositório
+git clone https://github.com/future4code/Johnson-landing-page1.git
+
+# Entrar no diretório
+cd landin-page
+
+# Utilizar extensão Live Server VS Code
+```
+
 
 Desenvolvido com 🧡 por Alexandre, Ingrid e Helany 🤝
