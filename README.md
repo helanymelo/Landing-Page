@@ -46,7 +46,7 @@ Os critérios foram:
 git clone https://github.com/future4code/Johnson-landing-page1.git
 
 # Entrar no diretório
-cd landin-page
+cd landing-page
 
 # Utilizar extensão Live Server VS Code
 ```
