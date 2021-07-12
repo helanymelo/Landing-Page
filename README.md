@@ -15,6 +15,7 @@
 
 - [Descrição](#-descrição-do-projeto)
 - [Como acessar o projeto](#-como-acessar-o-projeto)
+- [Desenvolvimento](#-desenvolvimento)
 
 ---
 
