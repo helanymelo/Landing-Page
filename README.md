@@ -30,7 +30,7 @@ Os critérios foram:
 - Seguir semântica do HTML5.
 - Links com ícone para redes sociais abrindo uma nova aba.
 - CSS deve estar em arquivos separados e com comentários indicando partes de layout.
-- Seguir paleta de cores baseada na logomarca provida pelo cliete.
+- Seguir paleta de cores baseada na logomarca provida pelo cliente.
 - Conter seções diferentes.
 - Criar link do surge.
 
